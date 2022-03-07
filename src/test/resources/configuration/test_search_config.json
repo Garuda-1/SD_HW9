@@ -1,0 +1,45 @@
+{
+  "searchClients": [
+    {
+      "type": "requestParamSearchClient",
+      "parameters": {
+        "name": "Googel",
+        "host": "http://127.0.0.1",
+        "port": 8008,
+        "path": "googel",
+        "method": "GET",
+        "queryParamName": "query",
+        "urlParams": {
+          "foo": "bar"
+        }
+      }
+    },
+    {
+      "type": "requestParamSearchClient",
+      "parameters": {
+        "name": "Beng",
+        "host": "http://127.0.0.1",
+        "port": 8008,
+        "path": "beng",
+        "method": "GET",
+        "queryParamName": "query",
+        "urlParams": {}
+      }
+    },
+    {
+      "type": "requestParamSearchClient",
+      "parameters": {
+        "name": "Yondix",
+        "host": "http://127.0.0.1",
+        "port": 8008,
+        "path": "yondix",
+        "method": "POST",
+        "queryParamName": "search",
+        "urlParams": {
+          "baz": "qux",
+          "quux": "quuz"
+        }
+      }
+    }
+  ]
+}

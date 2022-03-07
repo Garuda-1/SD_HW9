@@ -1,0 +1,11 @@
+{
+  "searchSources": [
+    {
+      "requestParamHttpClient": {
+        "name": "Google",
+        "url": "google.com",
+        "paramName": "query"
+      }
+    }
+  ]
+}
