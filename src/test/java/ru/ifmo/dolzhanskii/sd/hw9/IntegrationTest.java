@@ -25,7 +25,7 @@ public class IntegrationTest {
     private Main main;
     private ClientAndServer mockServer;
 
-    private static final int MOCK_SERVER_PORT = 8008;
+    private static final int MOCK_SERVER_PORT = 8888;
 
     @BeforeEach
     void beforeEach() {
